@@ -1,0 +1,464 @@
+.form_validate_err {
+	margin-top: 5px;
+	color: #F44336;
+}
+
+.form-group .label_text {
+    
+    font-weight: 500;
+    color: #464E5F;
+}
+
+.col-form-label {
+    padding-top: calc(0.65rem + 1px);
+    padding-bottom: calc(0.65rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+/* Ratings widget */
+.rate {
+    display: inline-block;
+    border: 0;
+}
+/* Hide radio */
+.rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.rate > label {
+    float: right;
+}
+/* The star of the show */
+.rate > label:before { 
+  margin: 5px;
+  font-size: 1.30em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+/* Zero stars rating */
+.rate > label:last-child:before {
+  content: "\f006 "; /* empty star outline */
+  /*color:#000;*/
+}
+/* Half star trick */
+.rate .half:before {
+    content: "\f089 "; /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+
+/*.rate > label { 
+  color: #ddd; 
+ float: right; 
+}*/
+/* Click + hover color */
+.rate > input:checked ~ label, /* color current and previous stars on checked */
+.rate > label:hover, label:hover ~ label { color: #FFD700;  } /* color previous stars on hover */
+
+/* Hover highlights */
+.rate > input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+.rate > input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+.rate > label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: #FFED85;  } 
+
+.imgClass {
+  text-decoration: none;
+  font-weight: 500px;
+  color: #000;
+}
+
+.mr-t-5{
+  margin-top: 5px;
+}
+.mr-t-10{
+  margin-top: 10px;
+}
+.mr-t-15{
+  margin-top: 15px;
+}
+.mr-t-30{
+  margin-top: 30px;
+}
+.mr-t-50{
+  margin-top: 50px;
+}
+.pl-0{
+  padding-left:0px; 
+}
+/*.datepicker,
+.table-condensed {
+  width: 500px;
+  height:500px;
+}*/
+.navbar-header {
+    text-align: center;
+    display: flex;
+}
+
+.navbar-header a.navbar-brand {
+    padding: 10px 0;
+    width: 48px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+.navbar-header a.navbar-brand img {height: auto;width: 100%;margin: 0;transform: scale(1.25);}
+div#navbar-mobile {
+    margin-top: 16px;
+}
+.header-highlight .navbar-header:not([class*=bg-]){
+      background-color: rgb(0 0 0 / .7);
+}
+.sidebar{
+  background-color: rgb(0 0 0 / .7);
+}
+.navigation > li.active > a, 
+.navigation > li.active > a:hover, 
+.navigation > li.active > a:focus {
+    background-color: #FF984A;
+    color: #fff;
+}
+.navigation li a:hover, .navigation li a:focus {
+    background-color: #FF984A;
+    color: #fff;
+}
+.btn-primary,
+.form-group .btn-success,
+.bg-blue {
+    color: #fff;
+    background-color: #2B7797;
+    border-color: #2B7797;
+}
+.btn-primary:focus, .btn-primary.focus, .btn-primary:hover,
+.form-group .btn-success:hover,
+.form-group .btn-success:focus,
+.bg-blue:focus,
+.bg-blue:hover {
+    background-color: #ff984a;
+    border-color: #ff984a;
+}
+.text-info {
+    color: rgb(0 0 0 / .6) !important;
+}
+.text-info, .text-info:hover, .text-info:focus {
+    color: rgb(0 0 0 / .6) !important;
+}
+.dataTables_paginate .paginate_button.current, .dataTables_paginate .paginate_button.current:hover, .dataTables_paginate .paginate_button.current:focus {
+    color: #fff;
+    background-color: #2b7797;
+}
+.sidebar-user {
+    background: #535050;
+}
+.bg-primary {
+    background-color: rgb(0 0 0 / .7);
+    border-color: rgb(0 0 0 / .7);
+    color: #fff;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #2B7797;
+    border-color: #2B7797;
+}
+.bg-blue:focus,
+.bg-blue:hover {
+    background-color: #ff984a;
+    border-color: #ff984a;
+}
+.login-logo img {
+    max-width: 125px;
+}
+
+.custom-form fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 15px;
+}
+.custom-form fieldset legend {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 19.5px;
+    line-height: inherit;
+    color: #333333;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    border: 0;
+    width: auto;
+    padding: 0 10px;
+}
+
+.mr-t-25{
+  margin-top:25px;
+}
+.datepicker{z-index: 1100!important}
+
+/*Transfer Rate css*/
+/* Ratings widget */
+.transfer_rate {
+    display: inline-block;
+    border: 0;
+}
+/* Hide radio */
+.transfer_rate > input {
+    display: none;
+}
+/* Order correctly by floating highest to the right */
+.transfer_rate > label {
+    float: right;
+}
+/* The star of the show */
+.transfer_rate > label:before { 
+  margin: 5px;
+  font-size: 1.30em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+/* Zero stars rating */
+.transfer_rate > label:last-child:before {
+  content: "\f006 "; /* empty star outline */
+  /*color:#000;*/
+}
+/* Half star trick */
+.transfer_rate .half:before {
+    content: "\f089 "; /* half star no outline */
+    position: absolute;
+    padding-right: 0;
+}
+
+/*.transfer_rate > label { 
+  color: #ddd; 
+ float: right; 
+}*/
+/* Click + hover color */
+.transfer_rate > input:checked ~ label, /* color current and previous stars on checked */
+.transfer_rate > label:hover, label:hover ~ label { color: #FFD700;  } /* color previous stars on hover */
+
+/* Hover highlights */
+.transfer_rate > input:checked + label:hover, input:checked ~ label:hover, /* highlight current and previous stars */
+.transfer_rate > input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
+.transfer_rate > label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: #FFED85;  } 
+/*End Transfer Rates*/
+
+.seo_fields_title{
+  padding: 7px 12px !important;
+}
+
+.variation_price_title{
+  padding: 7px 12px !important;
+}
+.div_title{
+  padding: 7px 12px !important;
+}
+
+.div_span{
+   padding: 7px 12px !important;
+}
+.resize_box{
+  resize:none;
+}
+
+.setting_icon1{
+    font-size: 17px;
+    padding: 11px;
+  }
+
+.remove_logo {
+    vertical-align: top;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background: #ef4035;
+    color: #fff;
+}
+
+.remove_logo i {
+    position: relative;
+    top: -2px;
+}
+.toggle-password {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  cursor: pointer;
+}
+.panel-body input[type="password"] {
+  padding-right: 40px;
+}
+#reset_form .toggle-password {
+  top: 10px;
+  right: 10px;
+  color: #999999;
+}
+#newsletter .modal-dialog {
+    width: 50%;
+}
+#newsletter .modal-form {
+    text-align: right;
+}
+.newsletter-error{
+  color: red;
+  display: none;
+}
+.clear-wrap {
+  margin-top: 34px;
+}
+.frm-import-users input#users_csv {
+  width: auto;
+  display: inline;
+}
+.frm-import-users #import_csv_btn {
+  background-color: #4caf50;
+  border: unset;
+  margin-left: 10px;
+}
+label#users_csv-error {  
+  padding-top: 2px;
+  color: red;
+  position: absolute;
+}
+.sa-button-container button.confirm {
+  background-color: rgb(35 142 189) !important;
+}
+.sa-button-container button.confirm:hover {
+  background: rgb(48 130 167) !important;
+}
+.sa-button-container button.cancel {
+  background: #00000026;
+}
+.sa-button-container button.cancel:hover {
+  background: #00000045 !important;
+}
+a#unsubscribe_selected {
+  background: #2B7797;
+  border: 1px solid #2B7797;
+}
+form#addUserNotes #user_notes-error,
+form#assignTagFrm label.error {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: block;
+  color: #F44336;
+  position: relative;
+  padding-left: 26px;
+}
+form#addUserNotes #user_notes-error:before,
+form#assignTagFrm label.error:before {
+  content: '\ed63';
+  font-family: 'icomoon';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  display: inline-block;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+#assign_tag_to_users_modal .modal-dialog {
+  width: 60%;
+}
+.tag-filter-wrap .col-md-6 {
+  display: flex;
+}
+.tag-filter-wrap .col-md-2 {
+  max-width: fit-content;
+}
+.tag-filter-wrap button.btn.bg-teal {
+  margin: 0 14px 0 20px;
+}
+tag-filter-wrap .form-group {
+  margin-bottom: 0px;
+}
+.tag-filter-wrap .form-group {
+  margin-bottom: 0px !important;
+}
+.select-tag-wrap label {
+  color: red;
+  position : absolute;
+}
+.diff-btn-wrapper .btn-danger, .diff-btn-wrapper .bg-brown {
+  margin-left: 10px;
+}
+@media (max-width:767px){
+  #assign_tag_to_users_modal .modal-dialog {
+    width: 100%;
+  }
+}
+@media screen and (max-width:769px){
+  .sidebar-xs .header-highlight .navbar-header{
+    height: 64px;
+  }
+}
+span.bootstrap-switch-handle-off.bootstrap-switch-danger {
+    width: auto !important;
+}
+.open_close_tour span.bootstrap-switch-handle-off.bootstrap-switch-danger {
+    width: 56px !important;
+}
+.text_blue {
+  color:blue;
+}
+
+.remove_review_gallery_img {
+    vertical-align: top;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background: #ef4035;
+    color: #fff;
+}
+
+.remove_review_gallery_img i {
+    position: relative;
+    top: -2px;
+}
+
+.delete_feature_img {
+    vertical-align: top;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background: #ef4035;
+    color: #fff;
+}
+
+.delete_feature_img i {
+    position: relative;
+    top: -2px;
+}
+
+#newsletter .modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+#newsletter .modal-footer {
+    vertical-align: middle !important;
+    padding: 12px 12px;
+}
+span.error {
+  color:#F44336;
+}
+
+.mrg-t-32 {
+  margin-top: 32px;
+}
+
+.select2-selection--multiple {
+  height: 100% !important;
+}
+.select2-selection__rendered{
+  word-wrap: break-word !important;
+  text-overflow: inherit !important;
+  white-space: normal !important;
+}
+
+.btn-remove-plat{
+  text-align: right;
+}

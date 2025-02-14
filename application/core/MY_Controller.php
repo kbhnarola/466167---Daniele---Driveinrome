@@ -1,0 +1,40 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+/**
+ * Common Controller for entire application
+ */
+class MY_Controller extends CI_Controller
+{
+	/**
+	 * Page Title to be set for each page which will be shown in Browser Tab using <title> tag
+	 */
+	public $page_title;
+
+	/**
+	 * Constructor for the class
+	 */
+	public function __construct()
+	{
+		parent::__construct();
+		$this->lang->load('english');
+		
+	}
+
+	/**
+	 * Set the page title.
+	 * @param str $page_title The title to be set.
+	 *
+	 * @return str  The page title.
+	 */
+	public function set_page_title($page_title)
+	{
+		if (strpos(current_full_url(), '/folio') == true)
+		{
+			$this->page_title = WEBSITE_NAME.' | Admin Panel | '.$page_title;
+		}
+		else
+		{
+			$this->page_title = WEBSITE_NAME.' | '.$page_title;
+		}
+	}
+}

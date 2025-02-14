@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3Black.eot');
+    src: url('TrajanPro3Black.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3Black.woff2') format('woff2'),
+        url('TrajanPro3Black.woff') format('woff'),
+        url('TrajanPro3Black.ttf') format('truetype'),
+        url('TrajanPro3Black.svg#TrajanPro3Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3-Regular.eot');
+    src: url('TrajanPro3-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3-Regular.woff2') format('woff2'),
+        url('TrajanPro3-Regular.woff') format('woff'),
+        url('TrajanPro3-Regular.ttf') format('truetype'),
+        url('TrajanPro3-Regular.svg#TrajanPro3-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3-Bold.eot');
+    src: url('TrajanPro3-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3-Bold.woff2') format('woff2'),
+        url('TrajanPro3-Bold.woff') format('woff'),
+        url('TrajanPro3-Bold.ttf') format('truetype'),
+        url('TrajanPro3-Bold.svg#TrajanPro3-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3Light.eot');
+    src: url('TrajanPro3Light.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3Light.woff2') format('woff2'),
+        url('TrajanPro3Light.woff') format('woff'),
+        url('TrajanPro3Light.ttf') format('truetype'),
+        url('TrajanPro3Light.svg#TrajanPro3Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3SemiBold.eot');
+    src: url('TrajanPro3SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3SemiBold.woff2') format('woff2'),
+        url('TrajanPro3SemiBold.woff') format('woff'),
+        url('TrajanPro3SemiBold.ttf') format('truetype'),
+        url('TrajanPro3SemiBold.svg#TrajanPro3SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro 3';
+    src: url('TrajanPro3ExtraLight.eot');
+    src: url('TrajanPro3ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('TrajanPro3ExtraLight.woff2') format('woff2'),
+        url('TrajanPro3ExtraLight.woff') format('woff'),
+        url('TrajanPro3ExtraLight.ttf') format('truetype'),
+        url('TrajanPro3ExtraLight.svg#TrajanPro3ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}

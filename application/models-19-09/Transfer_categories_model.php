@@ -1,0 +1,89 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Transfer_categories_model extends MY_Model
+{
+	protected $_table = TBL_TRANSFER_CATEGORY;
+	/**
+	 * Constructor for the class
+	 */
+	public function __construct()
+	{
+		parent::__construct();
+
+		$this->table=TBL_TRANSFER_CATEGORY;
+		// Set orderable column fields
+        $this->column_order = array(null,'title','created_at','updated_at',null);
+        // Set searchable column fields
+        $this->column_search = array('title');
+        // Set default order
+        $this->order = array('created_at' => 'desc');
+
+	}
+
+	public function getRows($postData){
+
+        $this->_get_datatables_query($postData);
+        if($postData['length'] != -1){
+            $this->db->limit($postData['length'], $postData['start']);
+        }
+        $query = $this->db->get();
+    
+        return $query->result();
+    }
+
+    public function countFiltered($postData){
+        $this->_get_datatables_query($postData);
+        $query = $this->db->get();
+        return $query->num_rows();
+    }
+
+    private function _get_datatables_query($postData){
+         
+        $this->db->from($this->table);
+
+        $i = 0;        
+        // loop searchable columns 
+        foreach($this->column_search as $item){
+            // if datatable send POST for search
+            if($postData['search']['value']){
+                // first loop
+                if($i===0){
+                    // open bracket
+                    $this->db->group_start();
+                    $this->db->like($item, $postData['search']['value']);
+                }else{
+                    $this->db->or_like($item, $postData['search']['value']);
+                }
+                
+                // last loop
+                if(count($this->column_search) - 1 == $i){
+                    // close bracket
+                    $this->db->group_end();
+                }
+            }
+            $i++;
+        }                
+         
+        if(isset($postData['order'])){
+            $this->db->order_by($this->column_order[$postData['order']['0']['column']], $postData['order']['0']['dir']);
+        }else if(isset($this->order)){
+            $order = $this->order;
+            $this->db->order_by(key($order), $order[key($order)]);
+        }
+    }
+
+    public function get_by_transferCategory(){
+
+        $this->db->select(TBL_TRANSFER_CATEGORY.'.*');
+        $this->db->from(TBL_TRANSFER_CATEGORY);
+        $this->db->join(TBL_TRANSFER,TBL_TRANSFER.".transfer_category_id=".TBL_TRANSFER_CATEGORY.".id");
+        $this->db->where(TBL_TRANSFER_CATEGORY.'.status',1);
+        $this->db->group_by(TBL_TRANSFER_CATEGORY.'.id');
+        //$this->db->order_by(TBL_TRANSFER_PRICE_PLAN.".id", "asc");
+        $query = $this->db->get();
+    
+        return $query->result_array();
+    }
+}
+?>
