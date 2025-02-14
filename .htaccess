@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+php_value post_max_size 2048M
+php_value upload_max_filesize 2048M
+
+#AuthType Basic    
+#AuthName "restricted area"  
+#AuthUserFile /driverinrome/application/views/frontpages/test/.htpasswd
+#require valid-user
+
+#Redirect 301 /tours/montepulciano-pienza-montalcino https://www.driverinrome.com/tours/montepulciano-pienza-montalcino-day-tour-from-rome
+#Redirect 301 /tours/montepulciano-pienza-montalcino-from-rome https://www.driverinrome.com/tours/montepulciano-pienza-montalcino-day-tour-from-rome
+#Redirect 301 /tours/pompeii-day-trip https://www.driverinrome.com/tours/pompeii-day-trip-from-rome
+#Redirect 301 /tours/siena-san-gimignano-day-trip https://www.driverinrome.com/tours/siena-san-gimignano-day-trip-from-rome
+#Redirect 301 /transfers/rome https://www.driverinrome.com/transfers/from-rome
+#Redirect 301 /shore-excursions/civitavecchia-rome https://www.driverinrome.com/shore-excursions/civitavecchia

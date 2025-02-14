@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.driverinrome.com/$1 [R=301,L]
+
+Redirect 307 http://www.driverinrome.com/$1 https://www.driverinrome.com/$1
+</IfModule>
