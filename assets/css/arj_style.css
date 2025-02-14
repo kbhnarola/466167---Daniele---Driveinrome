@@ -1,0 +1,2361 @@
+div#gdpr-cookie-message {
+    position: fixed;
+    max-width: 450px;
+    background: #2b7797;
+    padding: 30px;
+    left: 50px;
+    bottom: 15px;
+    color: #fff;
+    font-family: 'Trajan Pro';
+    z-index: 1040;
+}
+
+div#gdpr-cookie-message h4 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+div#gdpr-cookie-message p {
+    font-size: 16px;
+    line-height: 17px;
+    color: #fff;
+}
+
+div#gdpr-cookie-message p:last-child {
+    margin-bottom: 0;
+}
+
+div#gdpr-cookie-message p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+div#gdpr-cookie-message p a:hover {
+    color: #ff984a;
+}
+
+div#gdpr-cookie-message {
+    left: 15px;
+    right: 15px;
+}
+
+div#gdpr-cookie-message p button#gdpr-cookie-accept {
+    border-radius: 5px;
+    padding: 8px 18px 2px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Trajan Pro 3';
+    font-weight: bold;
+    border: 0;
+    background: #FF984A;
+    color: #fff;
+    float: right;
+}
+
+div#gdpr-cookie-message p button#gdpr-cookie-advanced {
+    border-radius: 5px;
+    padding: 8px 18px 2px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Trajan Pro 3';
+    font-weight: bold;
+    border: 0;
+    background: #FF984A;
+    color: #fff;
+    margin-left: 15px;
+}
+
+button#gdpr-cookie-accept,
+button#gdpr-cookie-advanced {
+    cursor: pointer;
+}
+
+div#errormodal .modal-dialog,
+div#transaddtocartmodal .modal-dialog,
+div#transaddtocarterrormodal .modal-dialog,
+div#removecartItem .modal-dialog,
+div#updateCartItem .modal-dialog {
+    max-width: 400px;
+    text-align: center;
+}
+
+div#errormodal .modal-dialog h4.modal-title,
+div#transaddtocartmodal .modal-dialog h4.modal-title,
+div#transaddtocarterrormodal .modal-dialog h4.modal-title,
+div#removecartItem .modal-dialog h4.modal-title,
+div#updateCartItem .modal-dialog h4.modal-title {
+    font-size: 24px;
+    color: #000;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: 'Trajan Pro 3';
+    margin: 0 0 15px 0;
+}
+
+.modal-open div#errormodal,
+.modal-open div#transaddtocartmodal,
+.modal-open div#transaddtocarterrormodal,
+.modal-open div#removecartItem {
+    display: flex !important;
+    align-items: center;
+}
+
+div#updateCartItem {
+    margin-top: 30px;
+}
+
+.modal-open div#errormodal .modal-dialog,
+.modal-open div#transaddtocartmodal .modal-dialog,
+.modal-open div#transaddtocarterrormodal .modal-dialog,
+.modal-open div#removecartItem .modal-dialog,
+.modal-open div#updateCartItem .modal-dialog {
+    margin: 0 auto;
+}
+
+body.modal-open {
+    overflow: visible !important;
+}
+
+.fleet-section .product-wrap .content-div:before {
+    display: none;
+}
+
+label.validation-error,
+.outcome,
+.expirymonthyear,
+.cvverror {
+    color: red !important;
+    margin-bottom: 0px;
+    font-family: 'Trajan Pro 3' !important;
+}
+
+.outcome {
+    font-size: 15px;
+    padding-top: 4px;
+}
+
+label#credit-card-needed-error {
+    width: 100%;
+}
+
+label#acceptPolicy-error {
+    width: 100%;
+    margin-top: 6px;
+}
+
+#quickQuoteFrm fieldset,
+#getacallFrm fieldset,
+#contactUs fieldset {
+    margin-bottom: 0px;
+}
+
+div#chat-application {
+    bottom: 100px !important;
+    right: 0px !important;
+}
+
+.not-found {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.not-found h2 {
+    color: #ff984a;
+}
+
+.grecaptcha-badge {
+    margin-bottom: 70px;
+    z-index: 999;
+}
+
+div#chat-application {
+    bottom: 10px !important;
+}
+
+ul.nav.navbar-nav a.active {
+    color: #ff984a;
+}
+
+/* #screenshot_slider .image-wrap img {
+    height: 288px;
+}
+#screenshot_slider .product-wrap .image-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 288px;
+} */
+.product-wrap .image-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-wrap .image-wrap {
+    position: relative;
+    height: 288px;
+    display: flex;
+    align-items: center;
+}
+
+.in-progress .circle {
+    border: 4px solid #DDDDDD !important;
+}
+
+li.completed.in-progress:after {
+    background: #ddd !important;
+}
+
+.modal-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content-wrap img {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    margin-right: 10px;
+}
+
+a.btn-red:hover {
+    text-decoration: unset;
+}
+
+footer ul li a {
+    display: inline-block;
+}
+
+.getintouch-div .accordion .card-header a {
+    width: auto;
+    display: inline-block;
+}
+
+.action-btn .btn-red {
+    padding: 0;
+    min-width: auto;
+    margin-left: 15px;
+}
+
+.update-cart .modal-dialog {
+    max-width: 520px !important;
+}
+
+.update-cart .transfer-item .text-content {
+    width: 100%;
+    text-align: left;
+}
+
+.update-cart .transfer-item .pricing-section {
+    width: 100%;
+    border-left: 0;
+    border-top: 2px solid rgb(75 73 71 / .2);
+    padding: 20px;
+}
+
+.update-cart .transfer-item {
+    margin: 0;
+}
+
+.getintouch-div .accordion .card-header a i {
+    margin: 0 15px 0 0;
+    font-size: 22px;
+    width: 20px;
+}
+
+.update-cart button.btn.btn.btn-border {
+    background: transparent;
+}
+
+.update-cart button.btn.btn.btn-border:hover {
+    background: #2b7797;
+    color: #fff;
+}
+
+.update-cart button.btn.btn.btn-border {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.update-cart .transfer-item .pricing-section form {
+    width: 100%;
+}
+
+.update-cart .transfer-item .pricing-section form .select-person {
+    max-width: 100%;
+    justify-content: center;
+}
+
+.update-cart .transfer-item .pricing-section form .select-person .custom-radio {
+    margin: 5px 15px 5px 0;
+}
+
+.update-cart .transfer-item .price {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.update-cart .transfer-item .price button {
+    width: 40% !important;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 10px !important;
+}
+
+.update-cart .transfer-item .price h5 {
+    width: 100%;
+}
+
+.transfer-item .pricing-section .price h5 {
+    margin: 0 0 15px 0;
+}
+
+button.btn.btn.btn-border:hover {
+    background: #2b7797;
+    color: #fff;
+}
+
+button.btn.btn.btn-border {
+    background: transparent;
+}
+
+.custom-notification-popup {
+    right: 20px;
+    top: 20px;
+    position: fixed;
+    z-index: 999999;
+}
+
+.custom-notification-popup .popup-notification {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    min-width: 300px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.custom-notification-popup .popup-notification button {
+    position: absolute;
+    right: 15px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 22px;
+    padding: 0;
+    line-height: normal;
+    top: 5px;
+    cursor: pointer;
+}
+
+.custom-notification-popup .popup-notification h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.custom-notification-popup .popup-notification p {
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+    line-height: normal;
+}
+
+.custom-notification-popup {
+    display: none;
+}
+
+h2.no-cms-page-content {
+    padding: 20px;
+    text-align: center;
+}
+
+div#toast-container .toast {
+    opacity: 1 !important;
+}
+
+.fleet-section .product-wrap .image-wrap img {
+    height: auto !important;
+    object-fit: initial !important;
+}
+
+.price-wrapper .total-price {
+    font-weight: bold !important;
+    font-size: 24px !important;
+    font-family: 'Trajan Pro 3';
+    color: #ff984a
+}
+
+.accept-plocy-txt a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.product-wrap .content-div h2:before {
+    left: 64.8%;
+}
+
+section.availability-section .image-wrap img {
+    /*height: auto !important;*/
+    height: 500px !important;
+    width: 100%;
+}
+
+section.availability-section .image-wrap {
+    height: auto;
+}
+
+.top-notify-danger {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f44336;
+}
+
+.top-notify-danger p {
+    font-size: 18px;
+    padding: 18px 0;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    font-family: 'Trajan Pro 3';
+    color: #fff;
+    line-height: 20px;
+}
+
+span.currency-symbol {
+    font-size: 16px;
+}
+
+span.currency-symbol-big {
+    font-size: 25px;
+}
+
+.order-info .order-item .order-info p,
+.order-summary .summary-details p,
+.order-summary .total-price label {
+    font-family: 'Trajan Pro 3';
+}
+
+.getintouch-div .accordion .card-header a i {
+    margin-left: auto;
+}
+
+.card-body.card-body-wrapper {
+    padding-top: 0px;
+}
+
+section.availability-section div#gallery_tour_slider .item {
+    margin: 0;
+}
+
+.product-wrap {
+    border-radius: 0px;
+}
+
+section.availability-section div#gallery_tour_slider button i {
+    color: #fff;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+section.availability-section div#gallery_tour_slider button {
+    width: 50px;
+    height: 50px;
+    background: rgb(43 119 151 / .9);
+    border-radius: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+section.availability-section div#gallery_tour_slider button i {
+    font-size: 44px;
+}
+
+section.availability-section div#gallery_tour_slider .owl-nav {
+    margin: 0 !important;
+}
+
+.getintouch-div .accordion .card-header a {
+    width: 100%;
+    display: flex;
+}
+
+.getintouch-div .accordion .card-header a i {
+    margin-left: 0;
+}
+
+.getintouch-div .accordion .card-header a span.up-down-arrow {
+    margin-left: auto !important;
+    display: inherit;
+}
+
+.getintouch-div .accordion .card-header a span.up-down-arrow i {
+    margin-right: 0;
+}
+
+.form-bg .form-group .input-group i.fa-calendar-alt {
+    top: 12px;
+}
+
+.select2-selection--single:not([class*=bg-]):not([class*=border-]) {
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+.next-checkout {
+    min-width: 190px;
+}
+
+.is-agent-form label,
+.is-agent-form .custom-radio {
+    color: rgb(0 0 0 / .7) !important;
+    font-family: 'Times New Roman' !important;
+    font-weight: 600;
+}
+
+.is-agent-form label {
+    font-size: 22px !important;
+    padding-bottom: 20px;
+}
+
+.card-payment {
+    display: none;
+}
+
+.first-card-type {
+    margin-top: 25px !important;
+}
+
+button#gdpr-cookie-advanced {
+    display: none;
+}
+
+.card-payment .StripeElement {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    line-height: 22px;
+    border: 0;
+    padding: 8px 15px 10px 17px;
+    height: auto;
+}
+
+label#cancellation_policy-error {
+    width: 100%;
+}
+
+.select2-popup span.select2-selection {
+    height: 40px;
+}
+
+.select2-dropdown {
+    border: 0 !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 0px 20px #0000004D !important;
+    border-radius: 5px !important;
+
+}
+
+.select2-dropdown ul {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.select2-dropdown ul li.select2-results__option {
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Times New Roman';
+    color: rgb(0 0 0 / .7);
+    margin: 0 !important;
+}
+
+.select2-dropdown ul li.select2-results__option:hover {
+    background: #FBF5EE 0% 0% no-repeat padding-box;
+    color: #2B7797;
+}
+
+.select2-results__option[aria-selected=true] {
+    background: #FBF5EE 0% 0% no-repeat padding-box !important;
+    color: #2B7797 !important;
+}
+
+.select2-results>.select2-results__options {
+    max-height: 215px;
+}
+
+span.select2-dropdown.select2-dropdown--below {
+    margin-top: 2px;
+}
+
+#addAffiliateForm fieldset {
+    margin-bottom: 0px !important;
+}
+
+#addAffiliateForm button.btn.btn-yellow {
+    margin-top: 0px;
+}
+
+#tourAvailabilityForm .input-group {
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+input#tour_availability_notes {
+    border: 0;
+}
+
+#tourAvailabilityForm .tour_avail_fieldset {
+    width: 100%;
+}
+
+#upsellingTours .owl-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#upsellingTours .owl-nav button i {
+    font-size: 34px;
+    color: #333;
+}
+
+#upsellingTours .owl-nav button {
+    margin: 0 5px;
+}
+
+#gallery_tour_slider .item.text-center {
+    height: 500px;
+}
+
+section.topselling-section.fleet-section .product-wrap .image-wrap {
+    height: 200px;
+    overflow: hidden;
+}
+
+section.topselling-section.fleet-section .product-wrap {
+    height: 100%;
+}
+
+.transfer-item .div-wrap p {
+    font-family: 'Trajan Pro 3';
+}
+
+.transfer-item .text-content {
+    position: relative !important;
+}
+
+.transfer-item .div-wrap {
+    /*position: absolute;*/
+    bottom: 10px !important;
+}
+
+.topselling-section .p-info-wrap .left {
+    padding-top: 20px;
+}
+
+.select2-popup span.select2-selection__arrow {
+    font-size: 40px !important;
+    color: #2b7797 !important;
+    font-weight: 800 !important;
+    right: 10px !important;
+    position: absolute;
+    bottom: 20px;
+}
+
+.select2-popup span.select2-selection.select2-selection--single {
+    position: relative;
+}
+
+ul.dropdown-menu.show li a:hover {
+    background: #FBF5EE 0% 0% no-repeat padding-box;
+    color: #2B7797 !important;
+}
+
+section.videos-section .content .text {
+    bottom: 25px;
+}
+
+section.videos-section .content {
+    padding: 0px;
+}
+
+.trustpilot-wrap .trustpilot-widget {
+    height: 310px !important;
+}
+
+.trustpilot-wrap {
+    padding: 20px;
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: rgb(0 0 0 / .7);
+}
+
+/* header {
+    z-index: 1041;
+} */
+
+.validation-error {
+    font-size: 14px;
+}
+
+.breadcrumb p {
+    color: #fff;
+    font-family: 'Trajan Pro 3';
+    font-size: 15px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.breadcrumb p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb p a:hover {
+    text-decoration: unset;
+}
+
+.breadcrumb span.title {
+    color: #ff984a;
+    font-weight: 600;
+}
+
+.breadcrumb.n-breadcrumb p,
+.breadcrumb.n-breadcrumb p a {
+    color: #000;
+}
+
+.breadcrumb.n-breadcrumb p {
+    color: #000;
+    text-transform: uppercase;
+}
+
+section.quote-section .custom-form .button-wrap {
+    justify-content: flex-start;
+}
+
+section.quote-section .custom-form .button-wrap button {
+    margin-left: 15px;
+}
+
+section.page-title-section.single_tour .image-wrap h1 {
+    font-size: 48px;
+    padding: 0 50px;
+    line-height: 52px;
+    transform: none;
+    margin: 0;
+    top: 250px;
+}
+
+section.subscribe-section form .form-group button {
+    min-height: 46px;
+}
+
+.custom-pagination li.last,
+.custom-pagination li.first {
+    display: none;
+}
+
+ul.custom-pagination .active a {
+    background: #ff984a;
+    color: #fff;
+}
+
+.custom-pagination li.disabled a:hover {
+    background: unset;
+    color: #000;
+}
+
+.custom-pagination li.disabled a {
+    cursor: not-allowed;
+}
+
+ul.dropdown-menu.show {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+button.send_me_transfer_quote {
+    width: 100%;
+    margin-top: 8px;
+}
+
+div#video_galley_popup .modal-dialog {
+    max-width: 75%;
+    margin: 50px auto;
+    height: calc(100% - 100px);
+}
+
+div#video_galley_popup .modal-dialog .modal-content {
+    height: 100%;
+    padding: 0;
+    background: transparent;
+}
+
+.modal-backdrop.show {
+    opacity: .7;
+}
+
+div#video_galley_popup .modal-dialog .modal-content button.close,
+div#tour_video .modal-dialog .modal-content button.close {
+    position: absolute;
+    background: #fff;
+    top: -20px;
+    z-index: 10;
+    opacity: 1;
+    display: inline-block;
+    width: 40px;
+    color: #000;
+    border-radius: 100px;
+    height: 40px;
+    right: -20px;
+}
+
+div#video_galley_popup .modal-dialog .modal-content .modal-body {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.video-gallery-popup {
+    cursor: pointer;
+}
+
+.playlist-wrap p {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #2b7797;
+    max-width: 100%;
+    background: #2b7797;
+    padding: 6px 0px !important;
+    margin-top: -10px;
+}
+
+div#video_galley_popup .modal-dialog iframe {
+    height: calc(100% - 45px);
+}
+
+.unsubscribe h3.red {
+    color: #ff0000ba;
+}
+
+.unsubscribe h3.green {
+    color: #008000bf;
+}
+
+h1.not-found {
+    text-align: center !important;
+    text-transform: capitalize;
+}
+
+span#s-error {
+    position: absolute;
+}
+
+section.page-title-section h1 {
+    font-size: 70px;
+    line-height: normal;
+    padding: 0 35px;
+}
+
+.related-blogs a:hover {
+    text-decoration: unset;
+}
+
+.blog-detail-wrapper * {
+    font-family: 'Times New Roman' !important;
+}
+
+.transfer-item .text-content .div-wrap p {
+    font-size: 12px !important;
+}
+
+.transfer-item .text-content .div-wrap p {
+    font-size: 14px !important;
+}
+
+/* Search tour start */
+.search-btn {
+    background: transparent;
+    border: none;
+    color: #FF984A;
+    font-size: 34px;
+    margin: 22px 10px 0 0;
+    cursor: pointer;
+    width: 46px;
+    height: 51px;
+}
+
+.search-btn-wrapper .dropdown-menu.dropdown-menu-right {
+    min-width: 25rem;
+    left: auto;
+    right: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.search-control {
+    min-height: 46px;
+    border-radius: 0px;
+    border: 3px solid #ff984a !important;
+    padding-right: 50px;
+}
+
+.search-btn-wrapper .dropdown-menu.dropdown-menu-right i {
+    color: #fff;
+    position: absolute;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    background: #ff984a;
+    right: 0;
+}
+
+.search-list-wrapper {
+    background: #fff;
+    margin-top: 5px;
+    border: 2px solid #ff984a;
+}
+
+.search-list-wrapper ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.search-list-wrapper ul li {
+    background: #ffffff;
+    border-bottom: 1px solid #2b77971f;
+    transition: ease 0.25s;
+}
+
+.search-list-wrapper ul li a {
+    color: #2b7797;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+.search-list-wrapper ul li.viewmore-btn {
+    background: #ff984a;
+    text-align: center;
+}
+
+.search-list-wrapper ul li.viewmore-btn a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.search-list-wrapper ul li:hover {
+    background: #1f6785;
+}
+
+.search-list-wrapper ul li:hover a {
+    color: #fff;
+}
+
+.btn-group.search-btn-wrapper.show .search-btn .fa-times {
+    display: block;
+}
+
+.btn-group.search-btn-wrapper.show .search-btn .fa-search {
+    display: none;
+}
+
+.btn-group.search-btn-wrapper .search-btn .fa-times {
+    display: none;
+}
+
+li.not-tour-found {
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+li.not-tour-found:hover {
+    background: unset !important;
+}
+
+.searchtour-orderinfo h4 {
+    font-size: 20px !important;
+}
+
+ul.searchtour-rating {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+ul.searchtour-rating i {
+    margin-left: 3px;
+    color: #ffce1d;
+    font-size: 15px;
+}
+
+.searchresult-txt {
+    color: #ff984a;
+}
+
+.search-tour-pagination {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.searchtour-orderinfo.order-info a:hover {
+    text-decoration: none !important;
+}
+
+/* Search tour end */
+
+/* Search share tour css start */
+.text-orange {
+    color: #ff984a;
+}
+
+.searchtour-wrapper {
+    max-width: calc(100% - 30px);
+    margin: auto;
+    background: #2b779717;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.searchtour-list {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.searchtour-icon {
+    min-width: 50px;
+    height: 50px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 1rem;
+    color: #2b7797;
+    font-size: 24px;
+    border: 2px solid #2b7797;
+}
+
+.searchtour-list .searchtour-info label {
+    font-weight: 600;
+    font-size: 12px;
+    color: #2b7797;
+}
+
+.searchtour-list .searchtour-info h5 {
+    font-weight: 600;
+    color: #1b1217;
+}
+
+.searchtour-list-inner {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 5px;
+    border-bottom: 1px #0000002e;
+    border-bottom-style: dashed;
+}
+
+.searchtour-list-inner label.lh-cstm {
+    min-height: 60px;
+}
+
+.searchtour-list-block {
+    box-shadow: 0px 2px 20px 0px #00000017;
+    border: 2px solid #2b7797;
+    border-radius: 6px;
+    background: #ffffff;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.searchtour-list-inner h5.searchtour-list-label i {
+    font-size: 15px;
+    color: #2b7797;
+    margin-right: 10px;
+    min-width: 20px;
+}
+
+.searchtour-list-inner h5.searchtour-list-label {
+    min-width: 125px;
+    color: #2b7797;
+    font-size: 14px;
+}
+
+.searchtour-list-inner label {
+    color: #000;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.searchtour-list-block .searchtour-list-inner:last-child {
+    border-bottom: none;
+}
+
+.searchtour-list-wrapper .searchtour-list:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    width: 0.5px;
+    height: 100%;
+    background: #2b7797;
+}
+
+.searchtour-list-wrapper:last-child .searchtour-list:before {
+    display: none;
+}
+
+.searchtour-list-wrapper:nth-child(2) .searchtour-list:before {
+    right: 0;
+}
+
+label.lh-cstm {
+    line-height: 1.2;
+}
+
+.lh-cstm a.readMore {
+    color: #ff984a;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.lh-cstm a.readMore:hover {
+    color: #ff984a;
+    text-decoration: underline;
+}
+
+#notes .modal-agency-name {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.notes-modal h5.modal-agency-name {
+    color: #FF984A;
+}
+
+.contact-find-us-fieldset span#select2-contactHowDidFind-container {
+    padding: 2px 0 10px 25px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.searchtour-list-block .city-img {
+    height: 200px;
+    position: relative;
+}
+
+.searchtour-list-block .city-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.searchtour-list-block .tour-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    padding: 1px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.tour-city-name {
+    padding: 5px 15px;
+}
+
+.tour-details {
+    padding: 0px 15px;
+}
+
+.searchtour-list-block .city-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000002b;
+}
+
+.tour-city-name h2 {
+    text-align: center;
+    color: #2b7797;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px #0000002e;
+    border-bottom-style: dashed;
+    margin-bottom: 0;
+}
+
+.searchtour-list-block .tour-date.orange {
+    background: #ff984a;
+}
+
+.searchtour-list-block .tour-date.blue {
+    background: #2b7797;
+}
+
+.searchtour-list-block .tour-date.red {
+    background: #ff4a4a;
+}
+
+.searchtour-list-block .tour-date.green {
+    background: #17c183;
+}
+
+span.clear-tour-search {
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+
+#sharedTourSearch label#theGroup-error {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* start css for inquire about villa on umbriavilla page */
+.inquire-villa-container {
+    display: flex;
+}
+
+.inquire-villa-container .inquire-villa-sub{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.inquire-villa-container label#inquireemail-error{
+    width: 100%;
+}
+
+/* .inquire-villa-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.inquire-villa-container form input[type="email"] {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 350px;
+} */
+
+.privacy-checkbox-wrapper input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0px 10px 0 0;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+}
+
+.privacy-checkbox-wrapper a {
+    text-decoration: unset;
+}
+
+.privacy-checkbox-wrapper label{
+    font-size: 14px;
+    font-family: 'Trajan Pro';
+    color: #000;
+}
+
+.inquire-villa-container form button {
+    /* margin-left: 25px; */
+    /* Space between input and button */
+    background: #2b7797 0% 0% no-repeat padding-box !important;
+    color: #fff !important;
+    font-size: 15px;
+    padding: 4px 15px 0;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Trajan Pro 3";
+    padding: 6px 15px 0;
+    line-height: 40px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+}
+
+button.g-recaptcha.btn.btn-blue.inquire-btn:hover {
+    background: rgb(43 119 151 / 80%) !important;
+    border-color: rgb(43 119 151 / 80%) !important;
+}
+
+.tabination-wrapper .nav-tabs .nav-item button{
+    background: transparent !important;
+    cursor: pointer !important;
+}
+
+.umbria_modal{
+    padding-right: 0px !important;
+}
+
+.umbria_modal .modal-content {
+    width: 80%;
+}
+
+.umbria_modal .modal-content .btn-yellow {
+    font-weight: bold;
+    background: #ff984a;
+    border: 1px solid #ff984a;
+    color: #fff !important;
+    font-family: "Trajan Pro 3";
+}
+
+.umbria_modal .modal-content .btn-yellow:hover{
+    border-color: #2b7797;
+}
+
+.umbria_modal .modal-content .btn-yellow:hover,
+.umbria_modal .modal-content .btn-yellow:active {
+    background: #2b7797;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .inquire-villa-container form input[type="email"] {
+        width: 100%;
+    }
+
+    .inquire-villa-container form button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .inquire-villa-container label#inquireemail-error {
+        order: 2;
+        width: 100%;
+    }
+
+    .inquire-villa-container form button{
+        order: 3;
+        min-height: 40px;
+    }
+}
+/* end css for inquire about villa on umbriavilla page */
+/* start villa popup banner css */
+#villa_popup_banner .modal-content {
+    padding: 0px;
+}
+
+#villa_popup_banner .modal-dialog {
+    max-width: 800px;
+}
+
+button.top-corner-modal-close {
+    position: absolute;
+    background: #fff;
+    top: -20px;
+    z-index: 100;
+    opacity: 1;
+    display: inline-block;
+    width: 40px;
+    color: #000;
+    border-radius: 100px;
+    height: 40px;
+    right: -20px;
+}
+
+.cstm-overlay-section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Adjust the opacity */
+    pointer-events: none;
+    z-index: 1;
+}
+
+.visit-villa-btn a {
+    position: absolute;
+    bottom: -40px;
+    z-index: 11;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-weight: bold;
+    color: #1a1a1a;
+    cursor: pointer;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#villa_popup_banner .modal-body {
+    border: 10px solid #ffffff;
+}
+
+.visit-villa-btn a::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(46deg, #ff984a78, #ff984a, #ff984a73);
+    z-index: -1;
+}
+
+.visit-villa-btn a {
+    position: absolute;
+    bottom: -40px;
+    z-index: 11;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white !important;
+    border: 4px solid transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 3px #ff984a;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1a1a1a;
+    cursor: pointer;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: ease-in-out 0.5s;
+}
+
+.visit-villa-btn a:hover {
+    transform: translate(-50%, -50%) scale(.95);
+    color: #000000;
+}
+/* end villa popup banner css */
+
+.inquire-villa-wrapper {
+    z-index: 1;
+}
+
+@media screen and (min-width:768px) {
+    .search-shared-input {
+        max-width: calc(50% - 85px);
+        flex: 0 0 calc(50% - 85px);
+    } 
+    
+    .visit-villa-btn a {
+        word-break: break-word;
+        white-space: normal;
+    }
+
+    .visit-villa-btn a:hover {
+        transform: translate(-50%, -50%) scale(.95);
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1499px) {
+    .searchtour-list-wrapper {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .searchtour-list .searchtour-info h5 {
+        font-size: 14px;
+    }
+
+    .searchtour-icon {
+        min-width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .searchtour-list-block .city-img {
+        height: 250px;
+    }
+
+    .searchtour-list-inner label {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .searchtour-wrapper {
+        padding: 5px 5px;
+    }
+
+    .searchtour-icon {
+        min-width: 36px;
+        height: 36px;
+        margin-right: 7px;
+        font-size: 16px;
+    }
+
+    .searchtour-list .searchtour-info h5 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .searchtour-list {
+        border-right: none;
+        border-bottom: 1px solid #2b77972e;
+        padding: 5px 10px;
+    }
+
+    .searchtour-list-wrapper:last-child .searchtour-list {
+        border-bottom: 0px;
+    }
+
+    .searchtour-wrapper {
+        max-width: 100%;
+    }
+
+    .searchtour-list-wrapper .searchtour-list:before {
+        display: none;
+    }
+
+    #sharedTourSearch label#theGroup-error {
+        margin-top: 10px;
+    }
+
+    .visit-villa-btn a {
+        bottom: -10px;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid #1a1a1a;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .searchtour-list-inner label {
+        font-size: 16px;
+    }
+
+    .searchtour-list-inner h5.searchtour-list-label i {
+        font-size: 17px;
+        min-width: 20px;
+    }
+
+    .searchtour-list-inner h5.searchtour-list-label {
+        min-width: 130px;
+    }
+
+    .searchtour-list-block .city-img {
+        height: 225px;
+    }
+}
+
+/* Search share tour css end */
+
+/* Home page video section css start */
+
+.video-section {
+    padding: 5rem 0px;
+    background: #fbf5ee;
+}
+
+.video-section .left-wrapper h2.title {
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.youtube-body {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.youtube-body iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-video {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    display: none;
+}
+
+.video-section #more {
+    display: none;
+}
+
+.video-section .readMore {
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    font-family: 'Trajan Pro 3';
+    font-weight: bold;
+    color: rgb(255 152 74) !important;
+    border-bottom: 1px solid rgb(255 152 74);
+    line-height: normal;
+    text-decoration: none !important;
+    cursor: pointer;
+
+}
+
+.slider-video button.close {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: #ff984a;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.slider-video button.close i {
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 575px) {
+    .video-section .left-wrapper h2.title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .video-section {
+        padding: 3rem 0px;
+    }
+}
+
+/* Home page video section css end */
+
+/* Home page video popup css end */
+.popup-btn {
+    width: 75px;
+    height: 75px;
+    margin: 50px auto;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    transition: ease 0.25s;
+}
+
+.popup-btn:hover {
+    color: white;
+    background-color: #ff984a;
+    border-color: #ff984a;
+}
+
+.video-popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+
+.popup-content iframe.video {
+    width: 100%;
+    height: 35vw;
+    max-height: 700px;
+    /*min-height: 500px;*/
+    border: none;
+}
+
+.popup-bg {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.popup-content {
+    background: black;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -40%); */
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-title {
+    padding: 30px;
+    margin: 0 auto;
+    color: red;
+    text-transform: uppercase;
+}
+
+.video-popup .popup-content .close-btn,
+.video-popup .popup-content .fullscreen-btn {
+    position: absolute;
+    right: 0;
+    top: -36px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.video-popup .popup-content .fullscreen-btn {
+    right: 45px;
+}
+
+.video-popup .popup-content .close-btn:hover,
+.video-popup .popup-content .fullscreen-btn:hover {
+    color: #ff984a;
+}
+
+@media screen and (max-width: 767px) {
+    .popup-content iframe.video {
+        min-height: 25vw;
+        height: auto;
+    }
+
+    section.banner-section .carousel-item {
+        height: auto;
+    }
+
+    .popup-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    body.home section.banner-section .carousel-inner .carousel-caption h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    body.home section.banner-section .carousel-inner .carousel-caption h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .popup-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    body.home section.banner-section .carousel-inner .carousel-caption h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    body.home section.banner-section .carousel-inner .carousel-caption h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+}
+
+
+.video-section .item {
+    opacity: 0.4;
+    transition: .4s ease all;
+    margin: 0 20px;
+    transform: scale(.8);
+}
+
+@media(max-width:1000px) {
+    .video-section .item {
+        margin: 0;
+        transform: scale(.9)
+    }
+}
+
+.video-section .active .item {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.video-section .owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.video-section video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Home page video popup css end */
+
+/* Tour details video popup button css start */
+.slider-popup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    width: 75px;
+    height: 75px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.slider-popup .popup-btn i {
+    font-size: 27px;
+    color: #fff;
+}
+
+.slider-popup button.popup-btn {
+    background: #00000073;
+    margin: 0px;
+}
+
+.slider-popup button.popup-btn:hover {
+    background-color: #ff984a;
+}
+
+#tour_video .modal-dialog {
+    max-width: 75%;
+    margin: 50px auto;
+    /* height: calc(100% - 100px);   */
+}
+
+#tour_video .modal-dialog .modal-content {
+    height: 100%;
+    border-radius: 30px;
+    background: transparent;
+}
+
+#tour_video .modal-dialog .modal-content .modal-body {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#tour_video .modal-dialog .modal-content .youtube-body {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.review_card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 5px;
+    background: #FBF5EE;
+    border: 1px solid #FBF5EE;
+    transition: ease 0.5s;
+}
+
+.review_card .review_icon {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid #2b7797;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.review_card .review_icon img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    object-position: top center;
+}
+
+.review_card .review_info h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.review_card .review_info .review_count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review_card .review_info .review_count .product-wrap .content-div:before {
+    display: none;
+}
+
+.review_card .review_info .review_count .product-wrap {
+    width: auto;
+    margin: 0px 10px;
+}
+
+.review_card .review_info .review_count span {
+    font-weight: bold;
+}
+
+.review_card .review_info p {
+    text-align: center;
+}
+
+.review_card .review_info .review_link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.review_card:hover {
+    border-color: #ff984a;
+}
+
+.platform_modal .modal-content .modal-header {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.platform_modal .modal-dialog {
+    max-width: fit-content;
+    width: 98%;
+}
+
+.review_card_modal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review_card_modal .review_card {
+    width: 196px;
+    margin: 0px 12px;
+    padding: 25px 10px;
+    cursor: pointer;
+}
+
+.review_card_modal .review_card .review_info h3{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:1199px) {
+
+    .slider-popup button.popup-btn,
+    .slider-popup {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .slider-popup .popup-btn i {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #tour_video .modal-dialog {
+        max-width: 90%;
+        padding: 0px;
+    }
+
+    div#tour_video .modal-dialog .modal-content button.close {
+        width: 30px;
+        height: 30px;
+        right: -5px;
+        top: -10px;
+    }
+}
+
+/* Tour details video popup button css end */
+
+@media(max-width: 1600px) {
+    section.single_tour h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    section.single-city h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    section.single-transfer h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    section.page-title-section.single_tour .image-wrap h1 {
+        top: 200px;
+    }
+}
+
+@media(max-width:1200px) {
+    section.videos-section .content .text {
+        bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.videos-section .content .text h5 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .custom-form .field-group fieldset legend {
+        font-size: 12px;
+    }
+
+    section.availability-section .image-wrap img {
+        /*height: auto !important;*/
+        height: 500px !important;
+    }
+}
+
+@media(max-width: 1024px) {
+    section.single_tour h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    section.single-city h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    section.single-transfer h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .form-bg .form-group fieldset {
+        overflow: visible;
+    }
+}
+
+@media(max-width: 991px) {
+    section.single_tour h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    section.single-city h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    section.single-transfer h1 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    section.page-title-section.single_tour .image-wrap h1 {
+        top: 120px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    section.availability-section .image-wrap img {
+        /*height: auto !important;*/
+        /*height: 300px !important;*/
+    }
+
+    /* Search tour start */
+    .search-btn {
+        margin-top: 0px;
+    }
+
+    .navbar-header .navbar-brand {
+        margin-left: 50%;
+    }
+
+    /* Search tour end */
+}
+
+@media(max-width:1500px) {
+    .fixed-btn {
+        width: 40px;
+    }
+
+    .fixed-btn a img {
+        width: 100%;
+    }
+}
+
+@media(max-width:1200px) and (min-width:768px) {
+    div#video_galley_popup .modal-dialog {
+        max-width: 90%;
+        height: auto;
+        margin: 70px auto;
+    }
+
+    div#video_galley_popup .modal-dialog iframe {
+        min-height: 480px;
+    }
+}
+
+@media(max-width:767px) {
+    div#gdpr-cookie-message p button {
+        width: 100%;
+        margin: 5px 0 !important;
+    }
+
+    div#gdpr-cookie-message {
+        left: 15px;
+        right: 15px;
+    }
+
+    div#errormodal .modal-dialog h4.modal-title,
+    div#transaddtocarterrormodal .modal-dialog h4.modal-title,
+    div#transaddtocartmodal .modal-dialog h4.modal-title,
+    div#removecartItem .modal-dialog h4.modal-title,
+    div#updateCartItem .modal-dialog h4.modal-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    section.single_tour h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    section.single-city h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    section.single-transfer h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .top-notify-danger p {
+        font-size: 14px;
+        padding: 8px 0;
+        line-height: 20px;
+    }
+
+    section.availability-section div#gallery_tour_slider button.owl-next {
+        right: 15px;
+        margin-right: 0;
+    }
+
+    section.availability-section div#gallery_tour_slider button.owl-prev {
+        margin-left: 0px !important;
+        left: 15px;
+    }
+
+    section.availability-section div#gallery_tour_slider button {
+        width: 30px;
+        height: 30px;
+    }
+
+    section.availability-section div#gallery_tour_slider button i {
+        font-size: 30px;
+    }
+
+    .next-checkout {
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+
+    .is-agent-form label {
+        font-size: 20px !important;
+        padding-bottom: 10px;
+        line-height: 30px !important;
+    }
+
+    .first-card-type {
+        margin-top: 0px !important;
+    }
+
+    #addAffiliateCode h4.modal-title {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    #addAffiliateCode button.btn.btn-yellow {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    section.topselling-section.fleet-section .product-wrap .image-wrap {
+        height: auto;
+    }
+
+    .transfer-item .div-wrap {
+        position: unset;
+        bottom: 0px !important;
+    }
+
+    #gallery_tour_slider .item.text-center {
+        height: 250px;
+    }
+
+    body {
+        font-family: 'Times New Roman';
+        font-size: 16px;
+        color: rgb(0 0 0 / .7);
+    }
+
+    .tab-section li.nav-item a {
+        text-align: left !important;
+        padding-left: 10px !important;
+    }
+
+    .breadcrumb p,
+    .breadcrumb.n-breadcrumb p,
+    .breadcrumb.n-breadcrumb p {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    section.quote-section .custom-form .button-wrap button {
+        margin-left: 0;
+    }
+
+    section.page-title-section.single_tour .image-wrap h1 {
+        top: 120px;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0;
+    }
+
+    section.availability-section .image-wrap img {
+        /*height: auto !important;*/
+        height: 300px !important;
+    }
+
+    ul.dropdown-menu.show {
+        max-height: 300px;
+    }
+}
+
+@media(max-width:600px) {
+    .order-info .order-item .order-info .action-btn {
+        flex-wrap: wrap;
+    }
+
+    .order-info .order-item .order-info .action-btn .price-wrapper {
+        width: 100%;
+        margin: 0px 0 15px 0 !important;
+        order: 1;
+    }
+
+    /* .order-info .order-item .order-info .action-btn .price-wrapper p {
+        text-align: left !important;
+    } */
+
+    .order-info .order-item .order-info .action-btn .btn.btn-blue {
+        order: 2;
+    }
+
+    .order-info .order-item .order-info .action-btn .btn-red {
+        order: 3;
+    }
+
+    section.availability-section .image-wrap img {
+        /*height: auto !important;*/
+        height: 300px !important;
+    }
+
+    div#video_galley_popup .modal-dialog {
+        max-width: 95%;
+        margin: 100px auto 0;
+        height: auto;
+    }
+
+    div#video_galley_popup .modal-dialog iframe {
+        min-height: 300px;
+    }
+}
+
+/* Search tour start */
+@media screen and (max-width:575px) {
+    .search-btn-wrapper .dropdown-menu.dropdown-menu-right {
+        min-width: 18rem;
+    }
+}
+
+/* Search tour end */
+
+.google-icon .review_icon img {
+    height: 58px;
+    width: 58px;
+}
